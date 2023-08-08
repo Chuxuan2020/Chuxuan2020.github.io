@@ -11,12 +11,6 @@ header {
     padding: 10px 0;
 }
 
-/* Reset default styles */
-* {
-  margin: 0 10px;
-  padding: 10px;
-  box-sizing: border-box;
-}
 
 /* Basic styling for the navigation bar */
 .navigation {
@@ -38,7 +32,13 @@ header {
   margin: 0 10px;
 }
 
-.navigation a {
+.left-buttons a {
+   text-decoration: none;
+  color: lightyellow;
+  font-weight: bold;
+}
+
+.right-buttons a {
   text-decoration: none;
   color: white;
   font-weight: bold;
