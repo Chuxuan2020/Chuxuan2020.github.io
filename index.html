@@ -3,34 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Website Title</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-        }
-        .container {
-            max-width: 960px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #ffffff;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            color: #333333;
-        }
-        p {
-            color: #666666;
-        }
-    </style>
+    <title>Chuxuan Li's Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to Your Website</h1>
-        <p>This is a sample website built using HTML and CSS.</p>
-    </div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#researchproj">Research Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="hero">
+            <h1>Welcome to my research playground</h1>
+            <p>Bringing your ideas to life with style.</p>
+            <a href="#services" class="btn">Explore Services</a>
+        </div>
+    </section>
+    <section id="publications">
+        <div class="container">
+            <h2>Manuscripts and Work in Prep</h2>
+            <p>We are a team of passionate individuals...</p>
+        </div>
+    </section>
+    <section id="researchproj">
+        <div class="container">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Web Design</li>
+                <li>Graphic Design</li>
+                <li>UI/UX Design</li>
+            </ul>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have a project in mind? Let's discuss...</p>
+        </div>
+    </section>
 </body>
 </html>
 
