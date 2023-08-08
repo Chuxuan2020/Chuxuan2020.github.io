@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Website Title</title>
+    <!-- Add any CSS stylesheets or other meta tags here -->
+</head>
+<body>
+    <header>
+        <h1>Welcome to Chuxuan Li's Website</h1>
+    </header>
+    
+    <nav>
+        <!-- Navigation links go here -->
+    </nav>
+    
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <p>This is where you can introduce yourself.</p>
+        </section>
+        
+        <section>
+            <h2>Portfolio</h2>
+            <p>Showcase your work or projects here.</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Chuxuan Li</p>
+    </footer>
+</body>
+</html>
