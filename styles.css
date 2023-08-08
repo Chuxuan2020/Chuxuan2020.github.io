@@ -57,8 +57,8 @@ nav a {
     border-radius: 8px;
 }
 
-.text-with-background {
-    background-image: url("https://drive.google.com/?export=view&id=1qDQoImAkD7nduI7-GOu6sw5nYqlNO9rS");
+.title-with-background {
+    background-image: url("images/titlebackground.jpg");
     background-size: cover;
     background-position: center;
     color: white; /* Set text color for better readability */
