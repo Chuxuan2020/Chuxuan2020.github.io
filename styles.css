@@ -91,16 +91,34 @@ header {
   padding: 50px 0; /* Add padding to the section */
   background-color: #f0f0f0; /* Add a background color */
   margin: 0 auto; 
-  max-width: 1200px;
+  max-width: 960px;
   align-items: center;
 }
 
 .about-image img {
   max-width: 500px; /* Adjust image width as needed */
-  overflow: visible;
 }
 
 .about-text {
+  flex: 1;
+  padding: 20px;
+}
+
+.project-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 50px; /* Add padding to the section */
+  background-color: #f0f0f0; /* Add a background color */
+  margin: 0 auto;
+  max-width: 960px;
+  align-items: center;
+}
+
+.proj-image img {
+  max-width: 500px; /* Adjust image width as needed */
+}
+
+.proj-text {
   flex: 1;
   padding: 20px;
 }
