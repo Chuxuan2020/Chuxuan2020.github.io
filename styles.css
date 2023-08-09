@@ -14,16 +14,12 @@ header {
 
 /* Basic styling for the navigation bar */
 .navigation {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
   display: flex;
   justify-content: space-between;
   background-color: #333;
   padding: 10px 20px; /* Adjust padding as needed */
   color: white;
-  z-index: 1000;
+  transition: top 0.3s;
 }
 
 .navigation ul {
@@ -95,7 +91,7 @@ header {
 }
 
 .about-image img {
-  max-width: 500px; /* Adjust image width as needed */
+  max-width: 400px; /* Adjust image width as needed */
 }
 
 .about-text {
