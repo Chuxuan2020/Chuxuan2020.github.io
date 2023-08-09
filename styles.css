@@ -96,7 +96,7 @@ header {
 }
 
 .about-image img {
-  max-width: 400px; /* Adjust image width as needed */
+  max-width: 500px; /* Adjust image width as needed */
   overflow: visible;
 }
 
