@@ -105,9 +105,13 @@ header {
   max-width: 1200px;
   align-items: center;
 }
-
+.project-content {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center-align items horizontally */
+}
 .proj-image img {
-  max-width: 500px; /* Adjust image width as needed */
+  max-width: 1000px; /* Adjust image width as needed */
 }
 
 .proj-text {
