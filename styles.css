@@ -69,6 +69,21 @@ header {
     border-radius: 5px;
 }
 
+.about-section {
+  padding: 50px 0; /* Add padding to the section */
+  background-color: #f4f4f4; /* Add a background color */
+}
+
+.about-image img {
+  max-width: 300px; /* Adjust image width as needed */
+}
+
+.about-text {
+  flex: 1;
+  padding: 20px;
+}
+
+
 .container {
     max-width: 960px;
     margin: 0 auto;
