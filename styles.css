@@ -132,7 +132,7 @@ header {
   align-items: center; /* Center-align items horizontally */
 }
 .present-image img {
-  max-width: 1000px; /* Adjust image width as needed */
+  max-width: 400px; /* Adjust image width as needed */
 }
 
 .present-text {
