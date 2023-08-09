@@ -11,6 +11,12 @@ header {
     padding: 10px 0;
 }
 
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 /* Basic styling for the navigation bar */
 .navigation {
@@ -134,7 +140,6 @@ header {
     background-size: cover;
     background-position: center;
     color: white; /* Set text color for better readability */
-    padding: 20px;
     padding-top: 200px;
 }
 
