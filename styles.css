@@ -85,7 +85,7 @@ header {
   padding: 50px 0; /* Add padding to the section */
   background-color: #f0f0f0; /* Add a background color */
   margin: 0 auto; 
-  max-width: 960px;
+  max-width: 1200px;
   align-items: center;
 }
 
@@ -99,12 +99,10 @@ header {
 }
 
 .project-section {
-  display: flex;
-  justify-content: space-between;
   padding: 50px 0; /* Add padding to the section */
   background-color: #f0f0f0; /* Add a background color */
   margin: 0 auto;
-  max-width: 960px;
+  max-width: 1200px;
   align-items: center;
 }
 
@@ -113,7 +111,6 @@ header {
 }
 
 .proj-text {
-  flex: 1;
   padding: 20px;
 }
 
