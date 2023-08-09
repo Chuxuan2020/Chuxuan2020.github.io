@@ -150,17 +150,19 @@ header {
 
 .title-with-background {
     background-image: url("images/titlebackground.jpg");
-    background-size: contain;
-    background-position: center;
+    background-size: cover;
+    background-position: center bottom;
     color: white; /* Set text color for better readability */
     padding-top: 200px;
+    min-height: 600px;
+    padding: 50px 0;
 }
 
 
 .forest-background {
     background-image: url("images/forestbackground.jpg");
-    background-size: contain;
-    background-position: center;
+    background-size: cover;
+    background-position: center bottom;
     color: white; /* Set text color for better readability */
     padding: 0;
     padding-top: 0;
