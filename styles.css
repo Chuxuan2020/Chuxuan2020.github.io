@@ -57,10 +57,11 @@ header {
     background-size: cover;
     background-position: center bottom;
     color: white; /* Set text color for better readability */
-    padding-top: 200px;
-    padding-left: 50px;
-    min-height: 800px;
-    padding: 50px 0;
+    padding: 200px 0 0 50px;
+}
+
+.title-with-background .navigation {
+  margin-top: 50px;
 }
 
 
