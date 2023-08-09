@@ -60,6 +60,16 @@ header {
     margin-bottom: 10px;
 }
 
+.hero h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.hero h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
 .btn {
     display: inline-block;
     padding: 10px 20px;
@@ -85,7 +95,7 @@ header {
 
 
 .container {
-    max-width: 960px;
+    max-width: 1060px;
     margin: 0 auto;
     padding: 20px;
     background-color: white;
