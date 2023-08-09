@@ -9,7 +9,7 @@ function updateNavigationPosition() {
   if (window.pageYOffset >= navOffset) {
     navigation.style.top = '0';
   } else {
-    navigation.style.top = '-33px'; /* Adjust this value based on your navigation's height */
+    navigation.style.top = '-50px'; /* Adjust this value based on your navigation's height */
   }
 }
 
