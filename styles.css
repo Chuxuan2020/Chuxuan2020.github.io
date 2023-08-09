@@ -125,12 +125,18 @@ header {
   align-items: center;
 }
 
+.about-image {
+ flex: 1;
+ padding: 20px;
+}
+
+
 .about-image img {
   max-width: 400px; /* Adjust image width as needed */
 }
 
 .about-text {
-  flex: 1;
+  flex: 2;
   padding: 20px;
 }
 
