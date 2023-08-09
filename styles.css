@@ -81,11 +81,11 @@ header {
 
 .about-section {
   padding: 50px 0; /* Add padding to the section */
-  background-color: #f4f4f4; /* Add a background color */
+  background-color: #f0f0f0; /* Add a background color */
 }
 
 .about-image img {
-  max-width: 500px; /* Adjust image width as needed */
+  max-width: 300px; /* Adjust image width as needed */
   overflow: visible;
 }
 
