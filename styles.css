@@ -11,12 +11,6 @@ header {
     padding: 10px 0;
 }
 
-/* Reset default styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 /* Basic styling for the navigation bar */
 .navigation {
@@ -92,7 +86,7 @@ header {
   padding: 50px 0; /* Add padding to the section */
   background-color: black; /*#f0f0f0; /* Add a background color */
   margin: 0 auto; 
-  max-width: 1200px;
+  max-width: 1000px;
   align-items: center;
 }
 
@@ -109,7 +103,7 @@ header {
   padding: 50px 0; /* Add padding to the section */
   background-color: black /*#f0f0f0; /* Add a background color */
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1000px;
   align-items: center;
 }
 .project-content {
@@ -125,6 +119,25 @@ header {
   padding: 20px;
 }
 
+.present-section {
+  padding: 50px 0; /* Add padding to the section */
+  background-color: black /*#f0f0f0; /* Add a background color */
+  margin: 0 auto;
+  max-width: 1000px;
+  align-items: center;
+}
+.present-content {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center-align items horizontally */
+}
+.present-image img {
+  max-width: 1000px; /* Adjust image width as needed */
+}
+
+.present-text {
+  padding: 20px;
+}
 
 .container {
     max-width: 1200px;
@@ -142,6 +155,7 @@ header {
     color: white; /* Set text color for better readability */
     padding-top: 200px;
 }
+
 
 .forest-background {
     background-image: url("images/forestbackground.jpg");
