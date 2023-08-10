@@ -57,6 +57,8 @@ header {
     background-position: center bottom;
     color: white; /* Set text color for better readability */
     padding: 500px 0 0 50px;
+    min-height: 800px;
+
 }
 
 .title-with-background .navigation {
