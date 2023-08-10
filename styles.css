@@ -178,6 +178,19 @@ header {
   flex-direction: column; /* Stack items vertically */
   align-items: center; /* Center-align items horizontally */
 }
+
+.present-images {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.present-image {
+    flex-basis: calc(50% - 10px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
 .present-image img {
   max-width: 400px; /* Adjust image width as needed */
   height: auto;
