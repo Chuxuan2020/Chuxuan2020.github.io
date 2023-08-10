@@ -125,6 +125,12 @@ header {
   align-items: center;
 }
 
+.about-content {
+    display: flex;
+    flex-direction: row; /* Display items side by side */
+    align-items: center; /* Vertically align items */
+}
+
 .about-image {
  flex: 1;
  padding: 20px;
