@@ -100,7 +100,6 @@ header {
   justify-content: space-between;
   padding: 50px 0; /* Add padding to the section */
   margin: 0 auto; 
-  max-width: 1000px;
   align-items: center;
   background-image: url("images/star-background.jpg");
   background-size: cover;
