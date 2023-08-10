@@ -66,14 +66,6 @@ header {
 }
 
 
-.star-background {
-    background-image: url("images/star-background.jpg");
-    background-size: cover;
-    background-position: center bottom;
-    padding-top: 0;
-
-}
-
 .hero {
     text-align: center;
     padding: 100px 0;
@@ -107,10 +99,14 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 50px 0; /* Add padding to the section */
-  background-color: black; /*#f0f0f0; /* Add a background color */
   margin: 0 auto; 
   max-width: 1000px;
   align-items: center;
+  background-image: url("images/star-background.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  padding-top: 0;
+
 }
 
 .about-content {
