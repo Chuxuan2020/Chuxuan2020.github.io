@@ -159,7 +159,7 @@ header {
 
 .present-section {
   padding: 50px 0; /* Add padding to the section */
-  background-color: white; /*#f0f0f0; /* Add a background color */
+  background-color: black; /*#f0f0f0; /* Add a background color */
   margin: 0 auto;
   max-width: 1000px;
   align-items: center;
