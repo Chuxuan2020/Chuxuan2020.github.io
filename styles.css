@@ -101,7 +101,7 @@ header {
   padding: 50px 0; /* Add padding to the section */
   margin: 0 auto; 
   align-items: center;
-  background-image: url("images/star-background.jpg");
+  background-image: url("images/contact-background.jpg");
   background-size: cover;
   background-position: center bottom;
   padding-top: 0;
@@ -133,8 +133,12 @@ header {
   padding: 50px 0; /* Add padding to the section */
   background-color: black; /*#f0f0f0; /* Add a background color */
   margin: 0 auto;
-  max-width: 1000px;
   align-items: center;
+  background-image: url("images/contact-background.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  padding-top: 0;
+
 }
 .project-content {
   display: flex;
@@ -153,16 +157,24 @@ header {
   padding: 50px 0; /* Add padding to the section */
   background-color: black; /*#f0f0f0; /* Add a background color */
   margin: 0 auto;
-  max-width: 1000px;
   align-items: center;
+  background-image: url("images/contact-background.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  padding-top: 0;
+
 }
 
 .present-section {
   padding: 50px 0; /* Add padding to the section */
   background-color: black; /*#f0f0f0; /* Add a background color */
   margin: 0 auto;
-  max-width: 1000px;
   align-items: center;
+  background-image: url("images/contact-background.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  padding-top: 0;
+
 }
 .present-content {
   display: flex;
