@@ -109,7 +109,7 @@ header {
   padding: 50px 0; /* Add padding to the section */
   background-color: black; /*#f0f0f0; /* Add a background color */
   margin: 0 auto; 
-  max-width: 1200px;
+  max-width: 1000px;
   align-items: center;
 }
 
@@ -138,7 +138,7 @@ header {
   padding: 50px 0; /* Add padding to the section */
   background-color: black; /*#f0f0f0; /* Add a background color */
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1000px;
   align-items: center;
 }
 .project-content {
@@ -154,11 +154,19 @@ header {
   padding: 20px;
 }
 
+.publication-section {
+  padding: 50px 0; /* Add padding to the section */
+  background-color: black; /*#f0f0f0; /* Add a background color */
+  margin: 0 auto;
+  max-width: 1000px;
+  align-items: center;
+}
+
 .present-section {
   padding: 50px 0; /* Add padding to the section */
   background-color: white; /*#f0f0f0; /* Add a background color */
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1000px;
   align-items: center;
 }
 .present-content {
@@ -188,8 +196,16 @@ header {
   padding: 20px;
 }
 
+.contact-section {
+  padding: 50px 0; /* Add padding to the section */
+  background-color: black; /*#f0f0f0; /* Add a background color */
+  margin: 0 auto;
+  max-width: 1000px;
+  align-items: center;
+}
+
 .container {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
     background-color: white;
