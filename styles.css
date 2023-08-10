@@ -196,13 +196,17 @@ header {
   padding: 20px;
 }
 
-.contact-section {
-  padding: 50px 0; /* Add padding to the section */
-  background-color: black; /*#f0f0f0; /* Add a background color */
-  margin: 0 auto;
-  max-width: 1000px;
-  align-items: center;
+
+.contact-background {
+    background-image: url("images/contact-background.jpg");
+    background-size: cover;
+    background-position: center bottom;
+    color: white; /* Set text color for better readability */
+    padding: 400px 0 0 50px;
+    min-height: 500px;
+
 }
+
 
 .container {
     max-width: 1000px;
