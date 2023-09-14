@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuxuan Li's Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navigation">
+            <ul class="left-buttons">
+                <li><a href="#home">Chuxuan Li</a></li>
+	    </ul>
+	    <ul class="right-buttons">
+		<li><a href="#aboutme">About Me</a></li>
+                <li><a href="#researchproj">Research Projects</a></li>
+                <li><a href="#publications">Publications</a></li>
+		<li><a href="#presentations">Presentations</a></li>
+                <li><a href="#fun">Other Fun Things I Do</a></li>
+		<li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="researchproj" class="project-section">
+	<div class="container">
+        <h2>Research projects</h2>
+        <h3>Probabilistically forecast hydro-geomorphic hazards over California</h3>
+        <div class="project-content">
+	  <div class="proj-image">
+            <img src="images/GEFS-figure.jpg" alt="Modeled postfire susceptibility">
+          </div>
+          <div class="proj-text">
+            <p>During January 2023, a parade of atmospheric rivers brought record-breaking rain and snowfall to California, causing widespread flooding and over 600 landslides. Flooding and landslide events were triggered by a mixture of hydro-geomorphic processes including infiltration-excess runoff in previously burned terrains, saturation-excess runoff, and snowmelt events. To enhance our capability to forecast these types of hydro-geomorphic hazards at regional scales, here we employ the National Oceanic and Atmospheric Administration’s National Water Model, WRF-Hydro, in conjunction with archived meteorological predictions from the 30-member Global Ensemble Forecast System (GEFS), to resolve relevant physical processes and probabilistically hindcast California’s susceptibility to hydro-geomorphic hazards during the January 2023 event. We validate WRF-Hydro baseline simulations using both streamflow and in-situ soil moisture observations. At the 36 U.S. Geological Survey streamflow sites we produce a mean Kling-Gupta Efficiency (KGE) of 0.6 while the mean KGE at the 49 soil moisture sites is 0.61, indicating good model performance. To create an ensemble of equally probable hydrological realizations, we run the validated WRF-Hydro using meteorological forcings from each of the 30 GEFS realizations. To estimate hazard susceptibility levels within each Hydrologic Unit Code 12 (HUC12) catchment in our domain, we multiply the peak discharge by the mean catchment slope and divide by the catchment area. We repeat this calculation for the 30 WRF-Hydro realizations and then probabilistically estimate hazard susceptibilities within each HUC12 catchment across California, in line with state-of-the-science meteorological forecast techniques. Our ensemble mean indicates high hydro-geomorphic hazard susceptibility near San Francisco Bay, the Sierra Nevada foothills, and the Coast Range of southern California – a spatial pattern that broadly agrees with reported landslide occurrences compiled by the California Geological Survey. Our results indicate that the modeling framework employed here has the potential to probabilistically forecast hydro-geomorphic hazards over large spatial scales. However, extensive research and testing is needed before such applications are operationalized. </p>
+	    <p> This work is still in preparation. There will be a presentation on this study during 2023 AGU. </p>
+	  </div>
+	</div>
+	<h3>Modeling regional-scale postfire debris flow susceptibility</h3>
+        <div class="project-content">	
+	  <div class="proj-image">
+	    <img src="images/NHESS-figure1.jpg" alt="Modeled postfire susceptibility">
+	  </div>
+	  <div class="proj-text">
+	    <p> In steep wildfire-burned terrains, intense rainfall can produce large runoff that can trigger highly destructive debris flows. However, the ability to accurately characterize and forecast debris flow susceptibility in burned terrains using physics-based tools remains limited. In this project, we augment the Weather Research and Forecasting Hydrological modeling system (WRF-Hydro) to simulate both overland and channelized flows and assess postfire debris flow susceptibility over a regional domain. We perform hindcast simulations using high-resolution weather-radar-derived precipitation and reanalysis data to drive non-burned baseline and burn scar sensitivity experiments. Our simulations focus on January 2021 when an atmospheric river triggered numerous debris flows within a wildfire burn scar in Big Sur – one of which destroyed California's famous Highway 1. Compared to the baseline, our burn scar simulation yields dramatic increases in total and peak discharge and shorter lags between rainfall onset and peak discharge, consistent with streamflow observations at nearby US Geological Survey (USGS) streamflow gage sites. For the 404 catchments located in the simulated burn scar area, median catchment-area-normalized peak discharge increases by ∼ 450 % compared to the baseline. Catchments with anomalously high catchment-area-normalized peak discharge correspond well with post-event field-based and remotely sensed debris flow observations. We suggest that our regional postfire debris flow susceptibility analysis demonstrates WRF-Hydro as a compelling new physics-based tool whose utility could be further extended via coupling to sediment erosion and transport models and/or ensemble-based operational weather forecasts. Given the high-fidelity performance of our augmented version of WRF-Hydro, as well as its potential usage in probabilistic hazard forecasts, we argue for its continued development and application in postfire hydrologic and natural hazard assessments.</p>
+             <p> Read more <strong> <a href="https://nhess.copernicus.org/articles/22/2317/2022/nhess-22-2317-2022.html">HERE </a></strong>
+	  </div>
+	</div>
+        <h3>Improving regional hydrologic models's performance to simulate soil moisture and streamflow</h3>
+        <div class="project-content">
+          <div class="proj-image"> 
+	     <img src="images/WRR-figure.jpg" alt="Soil moisture simulation in WRF-Hydro">
+	  </div>
+	  <div class="proj-text">
+             <p> In this study, we leverage soil parameter estimates from the Soil Survey Geographic (SSURGO) database and the probability mapping of SSURGO (POLARIS) to improve the representation of hydrologic processes in the Weather Research and Forecasting Hydrological modeling system (WRF-Hydro) over a central California domain. Our results show WRF-Hydro soil moisture exhibits increased correlation coefficients (r), reduced biases, and increased Kling-Gupta Efficiencies (KGEs) across seven in-situ soil moisture observing stations after updating the model’s soil parameters according to POLARIS. Compared to four well-established soil moisture datasets including Soil Moisture Active Passive data and three Phase 2 North American Land Data Assimilation System land surface models, our POLARIS-adjusted WRF-Hydro simulations produce the highest mean KGE (0.69) across the seven stations. More importantly, WRF-Hydro streamflow fidelity also increases, especially in the case where the model domain is set up with SSURGO-informed total soil thickness. The magnitude and timing of peak flow events are better captured, r increases across nine United States Geological Survey stream gages, and the mean KGE across seven of the nine gages increases from 0.12 to 0.66. Our pre-calibration parameter estimate approach, which is transferable to other spatially-distributed hydrological models, can substantially improve a model’s performance, helping reduce calibration efforts and computational costs.</p>
+	     <p> Read more <strong> <a href=" https://doi.org/10.1029/2023WR034431">HERE </a></strong> 
+          </div>
+	</div>
+	<h3>A cluster analysis of atmospheric river tracks over North Atlantic</h3>
+        <div class="project-content">
+          <div class="proj-image">
+             <img src="images/Cluster_analysis.webp" alt="Extreme precipitation and wind caused by four types of ARs">
+          </div>
+          <div class="proj-text">
+		  <p> Using reanalysis and high-resolution ensemble simulations, we characterize cold season (December−March) North Atlantic (NA) atmospheric river (AR) tracks by grouping them into four distinct clusters; then for each cluster, we link the year-to-year variations in track count to large-scale climate variability and examine the climatological effects of the cluster on extreme precipitation and winds. The four clusters share similar prevailing AR track orientation, but differ in AR genesis locations and dominate over different regions. Cluster 1, with the longest average track of the four clusters, originates near the U.S. East Coast during La Niña and positive North Atlantic Oscillation (NAO) years and produces extreme precipitation and winds primarily over the eastern coast of North America. Cluster 2, which is weak in intensity and short-lived, forms north of 30°N of the open ocean during positive NAO years and contributes to more than 25% of the precipitation and wind extremes along the coasts of Northwestern Europe. Cluster 3, with the strongest intensity and longest duration among the four clusters, is generated surrounding the Gulf of Mexico during El Niño and negative NAO years and produces respectively more than 50% and 40% of the extreme precipitation and wind events over the eastern U.S. Cluster 4, the smallest and weakest among the four clusters, is favored under negative NAO conditions and generates roughly 25% of the extreme precipitation and winds along the coast of the Iberian Peninsula. The similarities and discrepancies between reanalysis and model simulations and among different member simulations are also discussed.</p> 
+		  <p> Read more <strong> <a href="https://link.springer.com/article/10.1007/s00382-022-06297-y">HERE </a></strong>
+          </div>
+        </div>
+
+       <h3>Climate variability of atmospheric rivers over North Atlantic using large-ensemble simulations</h3>
+        <div class="project-content">
+          <div class="proj-image">
+             <img src="images/AR_variability.webp" alt="EOF1 of wintertime ARs over the North Atlantic">
+          </div>
+          <div class="proj-text">
+	     <p> The sea surface temperature (SST)-forced and internal variability in cold-season (December–March) atmospheric river (AR) occurrence frequency during 1951–2010 over the North Atlantic (NA) basin are examined using a 30-member ensemble of high-resolution atmospheric simulations. The first leading mode of the forced variability features a north–south wobbling pattern modulated by an out-of-phase combination of El Niño-Southern Oscillation (ENSO) and the North Atlantic Oscillation (NAO). Co-existing El Niño and negative NAO act to shift ARs equatorward, whereas concurrent La Niña and positive NAO tend to displace ARs poleward. The second leading mode is characterized by a meridional concentration and dispersion of AR occurrence at a basin scale and can be linked to the Scandinavian pattern and the SST difference between the central and easternmost tropical Pacific. The third leading mode is dominated by an oscillation of AR occurrence north and south of 40°N in the eastern NA basin, and modulated by an in-phase combination of ENSO and the NAO. Its time series exhibits a significant upward trend, which can be linked to the SST warming in the Indo-western Pacific since the 1970s. The internal variability in cold-season NA AR occurrence frequency is then quantified by means of the signal-to-noise ratio. The calculations show that the internal variability is relatively weak over the Great Antilles and central-to-eastern US but extremely strong over Northwestern Europe, which can be attributed to the strong SST control associated with ENSO and the chaotic variations of the NAO, respectively. </p>
+	      <p> Read more <strong> <a href="https://link.springer.com/article/10.1007/s00382-021-06017-y">HERE </a></strong>
+          </div>
+        </div>
+
+        </div>
+    </section>
+
